@@ -6,5 +6,6 @@ export default () => ({
     host: process.env.DATABASE_HOST,
     username: process.env.DATABASE_USER,
     password: process.env.DATABASE_PASSWORD,
+    entities: ['dist/**/*.entity{.ts,.js}'],
   },
 });
